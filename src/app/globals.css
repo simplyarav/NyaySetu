@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ink: 216 18% 5%;
+    --paper: 60 11% 95%;
+    --slate: 215 14% 46%;
+    --seal-crimson: 5 76% 31%;
+    --verdict-gold: 45 68% 47%;
+    --sage: 144 14% 34%;
+
+    --background: var(--paper);
+    --foreground: var(--ink);
+    --card: var(--paper);
+    --card-foreground: var(--ink);
+    --popover: var(--paper);
+    --popover-foreground: var(--ink);
+    --primary: var(--ink);
+    --primary-foreground: var(--paper);
+    --secondary: var(--sage);
+    --secondary-foreground: var(--paper);
+    --muted: 60 11% 90%;
+    --muted-foreground: var(--slate);
+    --accent: var(--verdict-gold);
+    --accent-foreground: var(--ink);
+    --destructive: var(--seal-crimson);
+    --destructive-foreground: var(--paper);
+    --border: var(--ink);
+    --input: var(--slate);
+    --ring: var(--seal-crimson);
+    
+    --radius: 0px;
+  }
+}
+
+@layer base {
+  * {
+    border-radius: 0 !important;
+    @apply border-border;
+  }
+  
+  .glass-panel, .glass-panel * {
+    border-radius: initial !important; 
+  }
+  .glass-panel {
+    border-radius: 0.5rem !important;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply backdrop-blur-md;
+    background-color: hsla(60, 11%, 95%, 0.75);
+    border: 1px solid hsla(216, 18%, 5%, 0.15);
+  }
+
+  .hairline-rule {
+    @apply w-full h-[1px] border-0 bg-ink/20 my-4;
+  }
+
+  /* Global Keyboard Focus */
+  *:focus-visible {
+    outline: 2px solid var(--seal-crimson);
+    outline-offset: 2px;
+  }
+
+  .tricolor-rule {
+    @apply w-full h-[2px] border-0 my-4;
+    background: linear-gradient(to right, 
+      #d46e3b 0%, #d46e3b 33.33%, 
+      #f8f8f2 33.33%, #f8f8f2 66.66%, 
+      #427a51 66.66%, #427a51 100%
+    );
+  }
+
+  .docket-number {
+    @apply font-mono tracking-widest text-[0.85em] text-slate lowercase;
+    font-variant: small-caps;
+  }
+}
