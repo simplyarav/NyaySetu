@@ -17,7 +17,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  title: "NyaySetu",
+  title: "NyaySahayak",
   description: "Next-gen court case management system",
 };
 

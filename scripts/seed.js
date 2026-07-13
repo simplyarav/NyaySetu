@@ -124,7 +124,7 @@ async function seed() {
     const adminUser = {
       _id: new ObjectId(),
       name: "System Administrator",
-      email: "admin@nyaysetu.gov",
+      email: "admin@nyaysahayak.gov",
       passwordHash,
       role: "admin",
       createdAt: new Date(),

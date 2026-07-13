@@ -105,7 +105,7 @@ export default function StaffManager() {
                 value={formData.email}
                 onChange={handleChange}
                 className="w-full bg-paper border border-slate/40 px-4 py-3 text-ink focus:border-ink focus:ring-1 focus:ring-ink transition-colors focus:outline-none"
-                placeholder="name@nyaysetu.gov"
+                placeholder="name@nyaysahayak.gov"
               />
             </div>
 

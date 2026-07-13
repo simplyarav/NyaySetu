@@ -149,7 +149,7 @@ export default function Home() {
             <path d="M18 10 V18" />
           </svg>
           <div className="flex flex-col">
-            <span className="font-display font-bold text-2xl leading-none">NyaySetu</span>
+            <span className="font-display font-bold text-2xl leading-none">NyaySahayak</span>
             <span className="font-sans font-semibold text-[10px] text-verdict-gold tracking-widest mt-1">न्याय</span>
           </div>
         </div>
@@ -296,7 +296,7 @@ export default function Home() {
       <div className="w-full h-[2px] tricolor-rule opacity-50" />
       
       <footer className="p-8 border-t border-ink/10 text-center">
-        <p className="font-mono text-xs text-slate">&copy; 2026 NyaySetu. Justice Accelerated.</p>
+        <p className="font-mono text-xs text-slate">&copy; 2026 NyaySahayak. Justice Accelerated.</p>
       </footer>
     </main>
   );

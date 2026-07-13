@@ -24,21 +24,21 @@ async function seedStaff() {
     const staffAccounts = [
       {
         name: "Chief Admin",
-        email: "admin@nyaysetu.gov",
+        email: "admin@nyaysahayak.gov",
         passwordHash,
         role: "admin",
         createdAt: new Date(),
       },
       {
         name: "Hon. Judge Sharma",
-        email: "judge@nyaysetu.gov",
+        email: "judge@nyaysahayak.gov",
         passwordHash,
         role: "judge",
         createdAt: new Date(),
       },
       {
         name: "Senior Clerk Verma",
-        email: "clerk@nyaysetu.gov",
+        email: "clerk@nyaysahayak.gov",
         passwordHash,
         role: "clerk",
         createdAt: new Date(),

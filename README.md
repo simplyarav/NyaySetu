@@ -1,6 +1,6 @@
-# NyaySetu
+# NyaySahayak
 
-NyaySetu is a next-generation court case management system designed to streamline legal proceedings, improve transparency, and tackle case pendency. It provides a secure, role-based dashboard for Court Staff, Admins, and Parties to track case statuses, hearings, and documents.
+NyaySahayak is a next-generation court case management system designed to streamline legal proceedings, improve transparency, and tackle case pendency. It provides a secure, role-based dashboard for Court Staff, Admins, and Parties to track case statuses, hearings, and documents.
 
 ## Features
 

@@ -106,7 +106,7 @@ export default function CaseStatusPage() {
     <div className="min-h-screen flex flex-col">
       <nav className="p-6 border-b border-ink/10 flex justify-between items-center bg-paper/50 backdrop-blur-sm sticky top-0 z-10">
         <AnimatedLink href="/" className="font-display font-bold text-2xl text-ink hover:text-ink/80 transition-colors">
-          NyaySetu
+          NyaySahayak
         </AnimatedLink>
         <span className="font-mono text-xs uppercase tracking-widest text-slate">Public Portal</span>
       </nav>

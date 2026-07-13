@@ -81,7 +81,7 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center p-4">
       <div ref={cardRef} className="bg-paper p-8 max-w-md w-full border border-ink/20 shadow-[8px_8px_0px_rgba(11,13,16,1)] opacity-0" style={prefersReducedMotion ? {opacity: 1} : {}}>
         <div className="text-center mb-8">
-          <h1 className="font-display font-bold text-4xl text-ink tracking-tight mb-2">NyaySetu</h1>
+          <h1 className="font-display font-bold text-4xl text-ink tracking-tight mb-2">NyaySahayak</h1>
           <p className="font-mono text-xs text-slate uppercase tracking-widest">Secure Login</p>
         </div>
 

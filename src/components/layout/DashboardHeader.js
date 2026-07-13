@@ -23,7 +23,7 @@ export default function DashboardHeader() {
     <>
       <header className="w-full bg-ink text-paper px-8 py-4 flex justify-between items-center z-40 relative shadow-md">
         <div className="flex items-center space-x-4">
-          <div className="font-display font-black text-xl tracking-tight text-paper">NyaySetu</div>
+          <div className="font-display font-black text-xl tracking-tight text-paper">NyaySahayak</div>
           <div className="h-4 w-px bg-paper/20"></div>
           <div className="font-mono text-xs uppercase tracking-widest text-paper/70">Unified Dashboard</div>
         </div>
